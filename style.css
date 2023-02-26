@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    font-family: Poppins;
+
+
+}
+.profile-card img{
+    border-radius: 50%;
+    display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  position: absolute;
+  bottom: 60%;
+border: solid white 5px;
+}
+.profile-card h3{
+    display: block;
+    margin-left: 50%;
+    margin-right: 50px;
+    position: absolute;
+  bottom: 51%;
+}
+.profile-card p{
+    display: block;
+    margin-left: 50%;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 48%;
+    left: 34px;
+
+}
+.profile-card .img1{
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: 50%;
+    position: absolute;
+    top: -10px;
+    border-radius: 0%
+}
+.profile-card .p1{
+    display: block;
+    margin-left: 50%;
+    opacity: 0.5;
+    position: absolute;
+    left: 75px;
+    top: -19px;
+}
+.profile-card .bg-pattern{
+
+    display: block;
+    width: 24%;
+    height: auto;
+    border-radius: 10%;
+    position: absolute;
+    top: 16%;
+    right: -17%;
+}
+.profile-card .p2
+{
+    display: block;
+    margin-left: 50%;
+    position: absolute;
+    left: -14%;
+    top: 59%;
+
+}
+.profile-card .p3
+{
+    display: block;
+    margin-left: 50%;
+    position: absolute;
+    left: 3%;
+    top: 59%;
+    
+}
+.profile-card .p4
+{
+    display: block;
+    margin-left: 50%;
+    position: absolute;
+    left: 18%;
+    top: 59%;
+    
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 576px) {
+    .profile-card {
+        width: 300px;
+        height: 400px;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile-card {
+        width: 250px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .profile-card h3 {
+        font-size: 20px;
+    }
+
+    .profile-card p {
+        font-size: 14px;
+    }
+
+    .profile-card .p1 {
+        font-size: 10px;
+    }
+
+    .profile-card .p2, .profile-card .p3, .profile-card .p4 {
+        font-size: 14px;
+    }
+
+    .profile-card .p2 b, .profile-card .p3 b, .profile-card .p4 b {
+        font-size: 20px;
+    }
+}
